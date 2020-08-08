@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuUserRegistration"
+        android:icon="@drawable/profile"
+        android:onClick="userRegistration"
+        android:title="@string/user_registration" />
+
+    <item
+        android:id="@+id/menuStudentCourseRegistration"
+        android:icon="@drawable/course_registration"
+        android:onClick="userCourseRegistration"
+        android:title="@string/student_course_registration" />
+
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/menuSettings"
+                android:icon="@drawable/settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/menuLogOut"
+                android:icon="@drawable/exit"
+                android:onClick="logOut"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+
+</menu>

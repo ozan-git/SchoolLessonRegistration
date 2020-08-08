@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">RegistryToLessons</string>
+    <string name="enter">Enter</string>
+    <string name="password">Password</string>
+    <string name="school_email_address">School Email Address</string>
+    <string name="log_out">Log Out</string>
+    <string name="profile">Profile</string>
+    <string name="others">Others</string>
+    <string name="courseRegistration">Course Registration</string>
+    <string name="cv_management">CV Management</string>
+    <string name="erasmus">Erasmus</string>
+    <string name="my_courses">My Courses</string>
+    <string name="online_exam">Online Exam</string>
+    <string name="student_dash_board">Student Dash Board</string>
+    <string name="settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="course_registration_page">Course Registration Page</string>
+    <string name="instructor_screen">Instructor Screen</string>
+    <string name="program_definitions_and_outcomes">Program Outcomes</string>
+    <string name="course_definitions_and_contents">Course contents</string>
+    <string name="graduate_application_evaluation">Graduate Application Evaluation</string>
+    <string name="calendar">Calendar</string>
+    <string name="lists">Lists</string>
+    <string name="course_load">Course Load</string>
+    <string name="exam_schedule_management">Exam schedule management</string>
+    <string name="course_opening_operations">Course Opening Operations</string>
+    <string name="note_entry_control_report">Note Entry Control Report</string>
+    <string name="lesson_open_operation">Lesson Open Operation</string>
+    <string name="register">Register</string>
+    <string name="e_mail_address_hint">E-mail Address</string>
+    <string name="password_reg">Password</string>
+    <string name="user_types_info">User Types</string>
+    <string name="lessons_info">Lessons</string>
+    <string name="surname_reg">Surname</string>
+    <string name="name_reg">Name</string>
+    <string name="admin">admin</string>
+    <string name="teacher">teacher</string>
+    <string name="student">student</string>
+    <string name="student_course_registration">Student Course Registration</string>
+    <string name="user_registration">User Registration</string>
+    <string name="admin_panel">Admin Panel</string>
+
+    <string-array name="lessons_array">
+        <item />
+        <item>EEE</item>
+        <item>ME</item>
+        <item>MEE</item>
+        <item>CE</item>
+        <item>GE</item>
+    </string-array>
+
+</resources>

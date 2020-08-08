@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuInstructorScreen"
+        android:icon="@drawable/my_courses"
+        android:title="@string/instructor_screen" />
+    <item
+        android:id="@+id/menuProgramDefinitionsAndOutcomes"
+        android:icon="@drawable/program_definitions_and_outcomes"
+        android:title="@string/program_definitions_and_outcomes" />
+    <item
+        android:id="@+id/menuCourseDefinitionsAndContents"
+        android:icon="@drawable/course_definition"
+        android:title="@string/course_definitions_and_contents" />
+
+    <item
+        android:id="@+id/menuGraduateApplicationEvaluation"
+        android:icon="@drawable/graduate_cap"
+        android:title="@string/graduate_application_evaluation" />
+    <item
+        android:id="@+id/menuCalendar"
+        android:icon="@drawable/calendar"
+        android:title="@string/calendar" />
+    <item
+        android:id="@+id/menuLists"
+        android:icon="@drawable/list"
+        android:title="@string/lists" />
+
+    <item
+        android:id="@+id/menuCourseLoad"
+        android:icon="@drawable/calculator"
+        android:title="@string/course_load" />
+    <item
+        android:id="@+id/menuExamScheduleManagement"
+        android:icon="@drawable/planner"
+        android:title="@string/exam_schedule_management" />
+
+    <item
+        android:id="@+id/menuNoteEntryControlReport"
+        android:icon="@drawable/graph"
+        android:title="@string/note_entry_control_report" />
+    <item
+        android:id="@+id/menuCourseOpeningOperations"
+        android:icon="@drawable/open_book"
+        android:onClick="courseOpeningOperations"
+        android:title="@string/course_opening_operations" />
+
+
+
+    <item android:title="@string/others">
+        <menu>
+
+            <item
+                android:id="@+id/menuSettings"
+                android:icon="@drawable/settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/menuLogOut"
+                android:icon="@drawable/exit"
+                android:onClick="logOut"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuProfile"
+        android:icon="@drawable/profile"
+        android:title="@string/profile" />
+    <item
+        android:id="@+id/StudentDashBoard"
+        android:icon="@drawable/student_dashboard"
+        android:title="@string/student_dash_board" />
+    <item
+        android:id="@+id/menuCourseRegistration"
+        android:icon="@drawable/course_registration"
+        android:onClick="courseRegistration"
+        android:title="@string/courseRegistration" />
+
+    <item
+        android:id="@+id/menuCalender"
+        android:icon="@drawable/calendar"
+        android:title="@string/calendar" />
+    <item
+        android:id="@+id/menuMyCourses"
+        android:icon="@drawable/my_courses"
+        android:title="@string/my_courses" />
+    <item
+        android:id="@+id/menuOnlineExam"
+        android:icon="@drawable/online_exam"
+        android:title="@string/online_exam" />
+
+    <item
+        android:id="@+id/menu_CV_management"
+        android:icon="@drawable/cv_management"
+        android:title="@string/cv_management" />
+    <item
+        android:id="@+id/menuErasmus"
+        android:icon="@drawable/erasmus"
+        android:title="@string/erasmus" />
+
+    <item android:title="@string/others">
+        <menu>
+
+            <item
+                android:id="@+id/menuSettings"
+                android:icon="@drawable/settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/menuLogOut"
+                android:icon="@drawable/exit"
+                android:onClick="logOut"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+
+</menu>
